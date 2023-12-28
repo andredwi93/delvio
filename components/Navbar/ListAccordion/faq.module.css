@@ -4,4 +4,4 @@
 
 .AccordionTrigger[data-state='open'] > .AccordionChevron {
   transform: rotate(-90deg);
-}
+} 
