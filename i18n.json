@@ -1,0 +1,11 @@
+{
+  "locales": ["id", "en"],
+  "defaultLocale": "id",
+  "pages": {
+    "*": ["common"],
+    "/": ["home"],
+    "/research": ["research"],
+    "/survey": ["service"],
+    "/about": ["about"]
+  }
+}
