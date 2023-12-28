@@ -5,7 +5,7 @@ const SurveyPage = dynamic(() => import("@/components/SurveyServices"))
 
 export default function Survey() {
   return (
-    <Layout title="Survey Service">
+    <Layout title="Survey">
       <SurveyPage />
     </Layout>
   )

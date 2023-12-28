@@ -8,9 +8,9 @@ export const customStyles = {
       background: isSelected ? "#DEF2E6" : "#fff",
       borderRadius: "11px",
       marginBottom: "12px",
-      '&:nth-child(2)': {
-        marginBottom: "0"
-      }
+      "&:nth-child(2)": {
+        marginBottom: "0",
+      },
     };
   },
 
@@ -26,7 +26,6 @@ export const customStyles = {
   },
 
   valueContainer: (state) => {
-    const isMobile = useContext(isMobileContext);
     return {
       ...state,
       padding: "0",
@@ -35,7 +34,6 @@ export const customStyles = {
   },
 
   control: (defaultStyles) => {
-    const isMobile = useContext(isMobileContext);
     return {
       ...defaultStyles,
       padding: "0",
@@ -50,8 +48,6 @@ export const customStyles = {
   },
 
   singleValue: (defaultStyles) => {
-    const isMobile = useContext(isMobileContext);
-
     return {
       ...defaultStyles,
       margin: "0",

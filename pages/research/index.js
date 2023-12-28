@@ -5,7 +5,7 @@ const ResearchPage = dynamic(() => import("@/components/ResearchServices"))
 
 export default function Research() {
   return (
-    <Layout title="Research Service">
+    <Layout title="Research">
       <ResearchPage />
     </Layout>
   )

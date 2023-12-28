@@ -17,7 +17,7 @@ export default function Banner() {
   return (
     <section
       id="banner"
-      className="w-full bg-light-white pt-[72px] lg:pt-[112px] lg:pt-[120px]"
+      className="w-full bg-light-white pt-[72px] lg:pt-[112px]"
     >
       <div className="wrapper pt-8 lg:pt-[80px] pb-8 lg:pb-[100px] px-6 lg:px-0">
         <h1 className="text-center text-2xl lg:text-4xl font-mono leading-8 lg:leading-[60px] font-medium text-light-black">

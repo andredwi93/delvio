@@ -5,7 +5,7 @@ const AboutPage = dynamic(() => import("@/components/About"))
 
 export default function About() {
   return (
-    <Layout title="About Service">
+    <Layout title="About">
       <AboutPage />
     </Layout>
   )
