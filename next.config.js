@@ -5,9 +5,9 @@ const nextTranslate = require("next-translate-plugin");
 const nextConfig = nextTranslate({
   reactStrictMode: false,
   swcMinify: true,
-  // compiler: {
-  //   removeConsole: true,
-  // },
+  compiler: {
+    removeConsole: true,
+  },
   webpack: (config) => {
     config.resolve.fallback = {
       fs: false,
