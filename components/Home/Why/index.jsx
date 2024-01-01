@@ -84,7 +84,7 @@ export default function Why() {
                 <h3 className="font-mono font-bold text-sm lg:text-2xl leading-[18px] lg:leading-8 text-light-green">
                   {t("section3.card3.title")}
                 </h3>
-                <p className="font-sans font-medium text-2xsm lg:text-reg leading-[15px] lg:leading-[21px] text-light-black mt-1 lg:mt-2">
+                <p className="font-sans font-normal text-2xsm lg:text-reg leading-[15px] lg:leading-[21px] text-light-black mt-1 lg:mt-2">
                   {t("section3.card3.desc")}
                 </p>
               </div>
@@ -140,7 +140,7 @@ export default function Why() {
                 <h3 className="font-mono font-bold text-sm lg:text-2xl leading-[18px] lg:leading-8 text-light-green">
                   {t("section3.card4.title")}
                 </h3>
-                <p className="font-sans font-medium text-2xsm lg:text-reg leading-[15px] lg:leading-[21px] text-light-black mt-1 lg:mt-2">
+                <p className="font-sans font-normal text-2xsm lg:text-reg leading-[15px] lg:leading-[21px] text-light-black mt-1 lg:mt-2">
                   {t("section3.card4.desc")}
                 </p>
               </div>

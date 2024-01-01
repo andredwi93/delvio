@@ -51,7 +51,12 @@ const NavigationMenuComponent = () => {
                 isActive={router.pathname === "/survey"}
                 href="/survey"
                 icon="survey"
-                title={t("navbar.ddProduct.card2.title")}
+                title={
+                  <Trans
+                    i18nKey="common:navbar.ddProduct.card2.title"
+                    components={[<i />]}
+                  />
+                }
                 desc={t("navbar.ddProduct.card2.desc")}
               />
             </ul>
