@@ -4,6 +4,7 @@ export default function Document() {
   return (
     <Html lang="en" style={{ scrollBehavior: "smooth" }}>
       <Head>
+        <link rel="alternate" hrefLang="id-ID" href="https://delvio.co" />
         <link
           rel="apple-touch-icon"
           sizes="180x180"

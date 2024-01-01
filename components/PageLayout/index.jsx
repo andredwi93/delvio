@@ -9,8 +9,15 @@ const PageLayout = ({ title, children }) => {
     <>
       <Head>
         <title>{`Delvio - ${title}`}</title>
+        <link
+          rel="canonical"
+          href="https://delvio.co"
+          key="canonical"
+        />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content="Delvio Projects." />
+        <meta name="robots" content="all" />
+        <meta name="googlebot" content="all" />
       </Head>
       <Navbar />
       {children}

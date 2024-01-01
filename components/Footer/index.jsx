@@ -36,7 +36,7 @@ export default function Footer() {
                 <Trans i18nKey="common:footer.title" components={[<i />]} />
               </p>
               <h3 className="mt-1 font-sans font-semibold text-sm leading-[19px] lg:text-reg lg:leading-[21px] text-light-green">
-                {t("footer.desc")}
+                <Trans i18nKey="common:footer.desc" components={[<i />]} />
               </h3>
               <div className="flex gap-2 lg:gap-3 mt-3">
                 <a

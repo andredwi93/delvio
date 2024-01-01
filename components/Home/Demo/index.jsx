@@ -135,6 +135,7 @@ export default function Demo() {
         <SecondaryButton
           title={t("common:btnClose")}
           className="w-full"
+          padding="py-[11px] px-6"
           onClick={() => router.reload()}
         />
       </Modal>

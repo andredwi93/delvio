@@ -17,9 +17,9 @@ export default function Description({
       <p className="text-xsm leading-[18px] lg:text-lg lg:leading-[27px] mt-2 lg:mt-4 text-light-black font-sans font-normal">
         {desc}
       </p>
-      <div className="flex items-center gap-3 mt-6 lg:mt-8">
-        <PrimaryButton title={titlePrimary} onClick={onGetStart} />
-        <OutlineButton title={titleOutline} onClick={onLearn} />
+      <div className="flex flex-col lg:flex-row items-center gap-3 mt-6 lg:mt-8">
+        <PrimaryButton className="w-full lg:w-fit" title={titlePrimary} onClick={onGetStart} />
+        <OutlineButton className="w-full lg:w-fit" title={titleOutline} onClick={onLearn} />
       </div>
     </div>
   );

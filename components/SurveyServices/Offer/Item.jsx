@@ -9,10 +9,10 @@ export default function Item({title, desc}) {
         />
       </figure>
       <div className="flex-1">
-        <h4 className="font-sans font-semibold text-reg leading-[21px] text-grey">
+        <h4 className="font-sans font-semibold text-xsm leading-[18px] lg:text-reg lg:leading-[21px] text-grey">
           {title}
         </h4>
-        <p className="font-sans font-normal text-reg leading-[21px] text-grey">
+        <p className="font-sans font-normal text-2xsm leading-[15px] lg:text-reg lg:leading-[21px] text-grey">
           {desc}
         </p>
       </div>

@@ -1,7 +1,7 @@
 export default function SecondaryButton({
   title,
   onClick,
-  padding = "py-[11px] px-5 lg:py-[13px] lg:px-[32px]",
+  padding = "py-[11px] px-5 lg:py-[13px] lg:px-8",
   className,
   href,
   link,
