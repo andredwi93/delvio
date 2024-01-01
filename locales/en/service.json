@@ -32,14 +32,14 @@
     }
   },
   "section2": {
-    "title": "Fulfill Various <0>Research Needs with Us</0>",
-    "desc": "Our Survey Services Help You Fulfill Various Research Needs",
+    "title": "Fulfill Various <0>Research Needs <1>with Us</1></0>",
+    "desc": "Our Survey Services Help You Fulfill Various <0>Research Needs</0>",
     "btnTab": {
       "tab1": "Various Needs",
       "tab2": "Versatile Utilization"
     },
     "tab1": {
-      "title": "Diverse Survey Requirements:",
+      "title": "Diverse Survey Needs Can Be Accommodated:",
       "list1": {
         "title": "Individuals",
         "desc": "Surveys for personal needs such as hobby research, opinions, or understanding specific topics."

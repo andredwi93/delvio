@@ -16,7 +16,7 @@ export default function ProductItem({ href, icon, title, desc, isActive }) {
             className="w-full h-full"
           />
         </figure>
-        <div>
+        <div className="flex-1">
           <h3 className="font-sans font-semibold text-xsm leading-5 text-dark-green">
             {title}
           </h3>

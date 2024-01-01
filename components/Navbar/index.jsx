@@ -171,7 +171,7 @@ export default function Navbar() {
         </div>
       </div>
       {isMobile && isShowMenu && (
-        <div className="absolute top-4 left-0 right-0 px-4 -z-10 transition-all ease-in duration-300">
+        <div className="absolute top-4 left-0 right-0 px-4 -z-10 transition-all ease-in duration-700">
           <div className="bg-white w-full rounded-3xl px-4 pt-4 pb-3 h-auto overflow-auto max-h-[450px] shadow-3xl">
             <NavMobile />
           </div>

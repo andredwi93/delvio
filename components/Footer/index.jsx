@@ -10,7 +10,7 @@ import ListItem from "./ListItem";
 export default function Footer() {
   const { t } = useTranslation("common");
   const date = new Date();
-  const year = date.getFullYear()
+  const year = date.getFullYear();
 
   return (
     <footer id="footer">
@@ -33,7 +33,7 @@ export default function Footer() {
           <div className="mt-4 lg:mt-3 flex flex-col-reverse lg:flex-row gap-0 lg:gap-6">
             <div className="w-full lg:w-[357px]">
               <p className="font-mono font-medium text-2xsm lg:text-xsm leading-[13px] lg:leading-4 text-light-black">
-                {t("footer.title")}
+                <Trans i18nKey="common:footer.title" components={[<i />]} />
               </p>
               <h3 className="mt-1 font-sans font-semibold text-sm leading-[19px] lg:text-reg lg:leading-[21px] text-light-green">
                 {t("footer.desc")}

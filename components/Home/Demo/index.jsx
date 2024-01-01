@@ -10,9 +10,11 @@ import BgDemo from "../../../public/images/home/demo.webp";
 import Modal from "@/components/Modal";
 import SecondaryButton from "@/components/Atoms/SecondaryButton";
 import dayjs from "dayjs";
+import { useRouter } from "next/router";
 
 export default function Demo() {
   const { t } = useTranslation();
+  const router = useRouter();
   const [show, setShow] = useState(false);
   const [loading, setLoading] = useState(false);
   const [name, setName] = useState("");
@@ -66,10 +68,10 @@ export default function Demo() {
         <h2 className="font-mono font-semibold text-2xl leading-8 lg:text-3xl lg:leading-[50px] text-center text-dark-green">
           <Trans
             i18nKey="home:demo.title"
-            components={[<span className="text-light-green" />]}
+            components={[<span className="text-light-green" />, <p />]}
           />
         </h2>
-        <div className="w-full lg:w-[700px] mx-auto mt-1 lg:mt-4 text-center">
+        <div className="w-full lg:w-[788px] mx-auto mt-1 lg:mt-4 text-center">
           <p className="font-sans font-normal text-sm leading-5 lg:text-lg lg:leading-7 text-light-black">
             <Trans
               i18nKey="home:demo.desc"
@@ -133,15 +135,7 @@ export default function Demo() {
         <SecondaryButton
           title={t("common:btnClose")}
           className="w-full"
-          onClick={() => {
-            setName("")
-            setEmailAddress("")
-            setPhoneNumber("")
-            setOccupation("")
-            setCompanyName("")
-            setMessage("")
-            setShow(false)
-          }}
+          onClick={() => router.reload()}
         />
       </Modal>
     </section>

@@ -190,7 +190,7 @@ export default function NavMobile() {
       </Accordion.Root>
       <Link
         href="/about"
-        className={`font-sans font-semibold text-sm leading-5 text-grey hover:text-light-green ${
+        className={`font-sans font-medium text-sm leading-5 text-grey hover:text-light-green ${
           router.pathname === "/about" ? "text-light-green" : "text-grey"
         }`}
       >

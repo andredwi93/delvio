@@ -9,7 +9,7 @@ export default function ListAccordion({ item, title, children, isActive }) {
           className={`flex items-center gap-3 w-full group text-left ${styles.AccordionTrigger}`}
         >
           <h3
-            className={`flex-1 font-sans font-semibold text-sm leading-5 text-grey group-data-[state=open]:text-light-green ${
+            className={`flex-1 font-sans font-medium text-sm leading-5 text-grey group-data-[state=open]:text-light-green ${
               isActive ? "text-light-green" : "text-grey"
             }`}
           >

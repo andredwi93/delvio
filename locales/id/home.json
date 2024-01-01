@@ -11,7 +11,7 @@
     },
     "tab1": {
       "title": "Layanan Riset",
-      "desc": "Layanan riset kustom yang menggabungkan metode kualitatif dan kuantitatif untuk hasil yang komprehensif."
+      "desc": "Layanan riset kustom yang menggunakan berbagai pendekatan dan metode, baik kualitatif dan/atau kuantitatif untuk hasil yang komprehensif."
     },
     "tab2": {
       "title": "Layanan & <0>Tools</0> Survei",
@@ -53,7 +53,7 @@
     }
   },
   "demo": {
-    "title": "Wujudkan Riset Berkualitas Tinggi yang Anda Inginkan <0>Sekarang!</0>",
+    "title": "Wujudkan Riset Berkualitas Tinggi <1>yang Anda Inginkan <0>Sekarang!</0></1>",
     "desc": "Gabung bersama <0>platform</0> riset dan survei terdepan. Temukan <0>insight</0> berkualitas, pengetahuan baru, dan buat keputusan yang lebih baik bersama <1>Delvio!</1>",
     "form": {
       "name": "Nama Lengkap",

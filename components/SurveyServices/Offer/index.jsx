@@ -13,16 +13,21 @@ export default function Offer() {
     <section id="offer" className="px-6 py-8 lg:px-0 lg:py-[80px]">
       <div className="wrapper">
         <div className="mx-auto text-center">
-          <h2 className="font-mono font-medium text-xl leading-7 lg:text-3xl lg:leading-[60px] text-light-black">
+          <h2 className="font-mono font-medium mb-2 lg:mb-4 text-xl leading-7 lg:text-3xl lg:leading-[60px] text-light-black">
             {
               <Trans
                 i18nKey="service:section2.title"
-                components={[<span className="text-light-green" />]}
+                components={[<span className="text-light-green font-bold" />, <p className="block lg:inline" />]}
               />
             }
           </h2>
           <p className="font-sans font-normal text-sm leading-5 lg:text-lg lg:leading-[27px] text-grey">
-            {t("section2.desc")}
+          {
+              <Trans
+                i18nKey="service:section2.desc"
+                components={[<span className="block lg:inline" />]}
+              />
+            }
           </p>
         </div>
         <div className="mt-6 lg:mt-[42px]">

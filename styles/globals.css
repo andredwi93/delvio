@@ -8,7 +8,7 @@
 
 .modal,
 .poppins {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--font-poppins)
 }
 
 #checkbox {

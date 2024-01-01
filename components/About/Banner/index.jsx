@@ -28,7 +28,7 @@ export default function Banner() {
               />
             }
           </h1>
-          <p className="mt-2 lg:mt-4 font-sans font-normal text-xsm leading-[18px] lg:text-lg lg:leading-[27px] text-light-black">
+          <p className="mt-2 lg:mt-4 font-sans font-normal text-xsm leading-[18px] lg:text-med lg:leading-[27px] text-light-black">
             {<Trans i18nKey="about:banner.desc" components={[<i />]} />}
           </p>
         </div>
