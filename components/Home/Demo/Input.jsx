@@ -6,7 +6,7 @@ export default function Input({ placeholder, type = "text", value, onChange }) {
       placeholder={placeholder}
       value={value}
       onChange={onChange}
-      // required
+      required
     />
   );
 }
