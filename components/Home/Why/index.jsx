@@ -114,9 +114,9 @@ export default function Why() {
             </div>
             <div className="bg-white flex flex-row lg:flex-col items-center lg:items-start gap-3 lg:gap-6 p-4 lg:p-[42px] rounded-[32px]">
               <figure
-                className={`w-[100px] h-[100px] lg:w-[231px] lg:h-[${
-                  lang === "en" ? "166px" : "112px"
-                }]`}
+              // className={`w-[100px] h-[100px] lg:w-[231px] lg:h-[${
+              //   lang === "en" ? "166px" : "112px"
+              // }]`}
               >
                 <Image
                   src={
@@ -129,8 +129,12 @@ export default function Why() {
                   priority="low"
                   sizes="100vw"
                   style={{
-                    width: "100%",
-                    height: isMobile ? 100 : 116,
+                    width: isMobile ? 100 : 231,
+                    height: isMobile
+                      ? 100
+                      : lang === "en" && !isMobile
+                      ? 166
+                      : 112,
                   }}
                   alt="section 3-4"
                   placeholder="blur"
