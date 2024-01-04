@@ -8,7 +8,7 @@
     "desc": "Berikut adalah manfaat yang Anda dapatkan dari layanan riset kami:",
     "card1": {
       "title": "Pendekatan & Metode yang Beragam",
-      "desc": "Menggunakan beragam pendekatan sesuai kebutuhan riset."
+      "desc": "Menggunakan beragam pendekatan & metode sesuai kebutuhan."
     },
     "card2": {
       "title": "Tim Riset Ahli dari Berbagai Bidang",
@@ -33,11 +33,11 @@
       "title": "Berbagai Industri yang Kami Layani:",
       "list1": {
         "title": "<0>Gaming</0>",
-        "desc": "Dalam industri yang terus berkembang ini, kami menyediakan riset mendalam untuk pemahaman <0>market</0>, preferensi <0>gamer</0>, dan tren inovatif."
+        "desc": "Dalam industri yang terus berkembang ini, kami menyediakan riset mendalam untuk pemahaman <0>market</0>, preferensi <0>gamers</0>, dan tren inovatif."
       },
       "list2": {
         "title": "<0>Sports & Events</0>",
-        "desc": "Kami membantu dalam analisis audiens, <0>event attendance</0>, dan preferensi penggemar untuk mengoptimalkan event experiences."
+        "desc": "Kami membantu dalam analisis audiens, <0>event attendance</0>, dan preferensi penggemar untuk mengoptimalkan <0>event experiences</0>."
       },
       "list3": {
         "title": "Pendidikan",
@@ -45,7 +45,7 @@
       },
       "list4": {
         "title": "Pemerintahan",
-        "desc": "Menyediakan data dan wawasan yang diperlukan untuk keputusan kebijakan yang lebih cerdas dan efektif."
+        "desc": "Menyediakan data dan <0>insights</0> yang diperlukan untuk keputusan kebijakan yang lebih cerdas dan efektif."
       },
       "list5": {
         "title": "<0>Travel & Hospitality</0>",
@@ -53,7 +53,7 @@
       },
       "list6": {
         "title": "<0>Food & Beverage</0>",
-        "desc": "Eksplorasi preferensi konsumen, tren rasa, dan kebiasaan konsumsi untuk inovasi produk."
+        "desc": "Eksplorasi preferensi konsumen, tren rasa, dan kebiasaan konsumen untuk kebutuhan inovasi produk."
       },
       "list7": {
         "title": "<0>Consumer Goods</0>",
@@ -73,18 +73,18 @@
       },
       "list11": {
         "title": "Teknologi",
-        "desc": "Penelitian tentang tren teknologi, adopsi pengguna, dan inovasi yang mendorong kemajuan teknologi."
+        "desc": "Penelitian tentang tren teknologi, <0>user adoption</0>, dan inovasi yang mendorong kemajuan teknologi."
       },
       "list12": {
         "title": "Periklanan",
-        "desc": "Menganalisis kinerja iklan, respons konsumen, dan tren pasar untuk mengoptimalkan strategi periklanan."
+        "desc": "Menganalisis performa iklan, respons konsumen, dan tren pasar untuk mengoptimalkan strategi periklanan."
       }
     },
     "tab2": {
       "title": "Berbagai Bidang Riset yang Kami Dukung:",
       "list1": {
         "title": "Riset Pasar",
-        "desc": "Menyelami data pasar untuk mendukung strategi pemasaran, pengembangan produk, dan penetrasi pasar."
+        "desc": "Mengeksplor data pasar untuk mendukung strategi pemasaran, pengembangan produk, dan penetrasi pasar."
       },
       "list2": {
         "title": "Riset Keuangan",
@@ -100,11 +100,11 @@
       },
       "list5": {
         "title": "Riset Iklan",
-        "desc": "Menilai efektivitas kampanye periklanan dan pemasaran untuk hasil yang dioptimalkan."
+        "desc": "Menilai efektivitas <0>campaigns</0> periklanan dan pemasaran untuk hasil yang optimal"
       },
       "list6": {
         "title": "Riset Akademik",
-        "desc": "Menyediakan data dan analisis untuk riset ilmiah dan akademis."
+        "desc": "Menyediakan data dan analisis untuk riset ilmiah dan akademik."
       },
       "list7": {
         "title": "Riset Murni",
@@ -112,7 +112,7 @@
       },
       "list8": {
         "title": "Riset Sosial",
-        "desc": "Meneliti isu-isu sosial dan kemanusiaan untuk pemahaman yang lebih baik tentang masyarakat."
+        "desc": "Meneliti isu-isu sosial dan kemanusiaan untuk pemahaman yang lebih baik tentang masyarakat atau lingkungan sosial."
       }
     }
   },
@@ -123,11 +123,11 @@
   "faq": {
     "title": "Pertanyaan yang Sering Diajukan",
     "card1": {
-      "title": "Bagaimana cara memulai proyek riset dengan Anda?",
+      "title": "Bagaimana cara memulai proyek riset dengan Delvio?",
       "desc": "Anda dapat menghubungi tim kami melalui formulir kontak untuk memulai proyek riset."
     },
     "card2": {
-      "title": "Apakah layanan Anda dapat disesuaikan untuk kebutuhan tertentu?",
+      "title": "Apakah layanan Delvio dapat disesuaikan untuk kebutuhan tertentu?",
       "desc": "Ya, kami dapat menyesuaikan layanan kami sesuai dengan kebutuhan Anda."
     },
     "card3": {

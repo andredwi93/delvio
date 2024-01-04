@@ -27,7 +27,7 @@ export default function GetKnow() {
             />
           </h2>
           <p className="text-xsm leading-[18px] lg:text-lg lg:leading-[27px] text-light-black font-sans font-normal mb-6 lg:mb-8">
-            {t("home:section2.desc")}
+            <Trans i18nKey="home:section2.desc" components={[<i />]} />
           </p>
           <SecondaryButton
             title={t("common:navbar.about")}

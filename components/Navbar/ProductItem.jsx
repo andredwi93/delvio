@@ -7,9 +7,7 @@ export default function ProductItem({ href, icon, title, desc, isActive }) {
       <NavigationMenu.Link asChild>
         <Link
           href={href}
-          className={`font-sans text-reg font-medium text-light-black flex flex-col gap-4 ${
-            isActive ? "bg-soft-green" : "bg-white"
-          } hover:bg-soft-green p-6 rounded-xl`}
+          className={`font-sans text-reg font-medium text-light-black flex flex-col gap-4 bg-white hover:bg-soft-green p-6 rounded-xl`}
         >
           <figure className="w-[42px] h-[42px] object-cover">
             <img

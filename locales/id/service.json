@@ -15,7 +15,7 @@
       "desc": "Dapatkan <0>insights</0> mendalam dengan analisis yang mudah dipahami, grafik interaktif, dan visualisasi yang rapi."
     },
     "card3": {
-      "title": "Distribusi Survei Cepat & Efisien",
+      "title": "Distribusi Survei yang Cepat & Efisien",
       "desc": "Bagikan survei Anda dengan cepat melalui berbagai <0>channels</0>, bisa langsung ke responden pribadi atau melalui jaringan tertarget kami."
     },
     "card4": {
@@ -24,11 +24,11 @@
     },
     "card5": {
       "title": "Teknologi Terkini",
-      "desc": "<0>Platform</0> terus diperbarui dengan teknologi terbaru untuk efektivitas survey yang lebih maksimal"
+      "desc": "<0>Platform</0> terus diperbarui dengan teknologi terbaru untuk efektivitas survei yang lebih maksimal"
     },
     "card6": {
       "title": "Dukungan Pelanggan yang Berdedikasi",
-      "desc": "Tim ahli siap membantu Anda pada setiap langkah, mulai dari pembuatan hingga analisis data."
+      "desc": "Tim ahli siap membantu Anda pada setiap tahap, mulai dari pembuatan hingga analisis data."
     }
   },
   "section2": {
@@ -42,14 +42,14 @@
       "title": "Beragam Kebutuhan Survey Dapat Dilayani:",
       "list1": {
         "title": "Individu",
-        "desc": "Survei untuk keperluan pribadi seperti riset hobi, pendapat, atau pemahaman tentang topik tertentu."
+        "desc": "Survei untuk keperluan pribadi seperti riset hobi, opini, atau pemahaman tentang topik tertentu."
       },
       "list2": {
         "title": "Bisnis/Organisasi",
-        "desc": "Dapatkan market <0>insights</0>, kepuasan pelanggan, atau analisis produk dan layanan."
+        "desc": "Dapatkan <0>market insights</0>, kepuasan pelanggan, atau analisis produk dan layanan."
       },
       "list3": {
-        "title": "Akademis",
+        "title": "Akademik",
         "desc": "Mendukung riset ilmiah, tesis, atau survei terkait pendidikan."
       }
     },
@@ -96,7 +96,7 @@
       "desc": "Kami menyediakan panduan komprehensif untuk membuat survei yang menarik dan efektif. Tim kami juga siap memberikan konsultasi lebih lanjut."
     },
     "card2": {
-      "title": "Apakah alat survei kami dapat terintegrasi dengan platform lain?",
+      "title": "Apakah alat survei Delvio dapat terintegrasi dengan platform lain?",
       "desc": "Ya, platform kami terintegrasi dengan berbagai platform lain dengan lancar."
     },
     "card3": {

@@ -45,7 +45,12 @@ export default function ListVarious() {
     {
       id: 7,
       title: t("section2.tab1.list4.title"),
-      desc: t("section2.tab1.list4.desc"),
+      desc: (
+        <Trans
+          i18nKey="research:section2.tab1.list4.desc"
+          components={[<i />]}
+        />
+      ),
     },
     {
       id: 9,
@@ -110,7 +115,12 @@ export default function ListVarious() {
     {
       id: 10,
       title: t("section2.tab1.list11.title"),
-      desc: t("section2.tab1.list11.desc"),
+      desc: (
+        <Trans
+          i18nKey="research:section2.tab1.list11.desc"
+          components={[<i />]}
+        />
+      ),
     },
 
     {

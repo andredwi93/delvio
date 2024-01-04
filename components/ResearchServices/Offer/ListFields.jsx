@@ -43,7 +43,10 @@ export default function ListFields() {
     {
       id: 2,
       title: t("section2.tab2.list5.title"),
-      desc: t("section2.tab2.list5.desc"),
+      desc: <Trans
+      i18nKey="research:section2.tab2.list5.desc"
+      components={[<i />]}
+    />,
     },
     {
       id: 4,
