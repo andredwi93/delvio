@@ -80,7 +80,7 @@ export default function Why() {
           </div>
           <div className="flex flex-1 flex-col gap-3 lg:gap-8">
             <div className="bg-white p-4 lg:p-[42px] rounded-[32px] flex items-center lg:items-start gap-4 lg:gap-8">
-              <div className="flex-1">
+              <div className="flex-1 w-full lg:w-[280px]">
                 <h3 className="font-mono font-bold text-sm lg:text-2xl leading-[18px] lg:leading-8 text-light-green">
                   {t("section3.card3.title")}
                 </h3>
@@ -119,17 +119,15 @@ export default function Why() {
               // }]`}
               >
                 <Image
-                  src={
-                    isMobile
-                      ? Section34Mobile
-                      : lang === "en"
-                      ? Section34Desktop
-                      : Section34Indo
-                  }
+                  src={isMobile ? Section34Mobile : Section34Desktop}
                   priority="low"
                   sizes="100vw"
                   style={{
-                    width: isMobile ? 100 : 231,
+                    width: isMobile
+                      ? 100
+                      : lang === "en" && !isMobile
+                      ? 231
+                      : 162,
                     height: isMobile
                       ? 100
                       : lang === "en" && !isMobile
