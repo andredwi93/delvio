@@ -5,9 +5,7 @@ export default function ProductItem({ href, icon, title, desc, isActive }) {
     <li className="flex-1">
       <Link
         href={href}
-        className={`flex gap-2 hover:bg-soft-green p-3 rounded-xl ${
-          isActive ? "bg-soft-green" : "bg-white"
-        }`}
+        className={`flex gap-2 hover:bg-soft-green p-3 rounded-xl bg-white`}
       >
         <figure className="w-6 h-6 object-cover">
           <img
